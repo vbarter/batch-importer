@@ -26,7 +26,7 @@ java -jar batch-import.jar neo4j-db-file node node1.csv [node2.csv, ...]
  * 例如node2.csv的格式可以如下：
 
   server_id | server_name | server_status | update_time | status | type | label |
-  :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
+  :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
   154335 | a | Available | 2012-12-26 16:43:52.644741 | new | 服务器 | {name};{type} |
   125977 | b | Available | 2012-12-26 15:42:04.925568 | new | 服务器 | {name};{type} |
    
