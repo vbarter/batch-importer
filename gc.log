@@ -1,0 +1,24 @@
+2012-12-07T18:55:24.095+0800: 33.668: [GC 33.668: [ParNew
+Desired survivor size 402653184 bytes, new threshold 15 (max 15)
+- age   1:   27393432 bytes,   27393432 total
+: 1572864K->26932K(2359296K), 0.0483260 secs] 1572864K->26932K(3407872K), 0.0484130 secs] [Times: user=0.12 sys=0.04, real=0.05 secs] 
+2012-12-07T18:55:26.516+0800: 36.088: [Full GC (System) 36.088: [CMS: 0K->26138K(1048576K), 0.2031260 secs] 203093K->26138K(3407872K), [CMS Perm : 26430K->26256K(26624K)], 0.2032940 secs] [Times: user=0.17 sys=0.03, real=0.20 secs] 
+2012-12-07T18:55:26.721+0800: 36.293: [GC [1 CMS-initial-mark: 26138K(1048576K)] 26138K(3407872K), 0.0007020 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2012-12-07T18:55:26.722+0800: 36.294: [CMS-concurrent-mark-start]
+2012-12-07T18:55:26.811+0800: 36.383: [CMS-concurrent-mark: 0.041/0.090 secs] [Times: user=0.19 sys=0.00, real=0.09 secs] 
+2012-12-07T18:55:26.811+0800: 36.383: [CMS-concurrent-preclean-start]
+2012-12-07T18:55:26.815+0800: 36.387: [CMS-concurrent-preclean: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2012-12-07T18:55:26.815+0800: 36.387: [CMS-concurrent-abortable-preclean-start]
+2012-12-07T18:55:26.815+0800: 36.387: [CMS-concurrent-abortable-preclean: 0.000/0.000 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2012-12-07T18:55:26.815+0800: 36.387: [GC[YG occupancy: 81789 K (2359296 K)]36.387: [Rescan (parallel) , 0.0029760 secs]36.390: [weak refs processing, 0.0036140 secs] [1 CMS-remark: 26138K(1048576K)] 107927K(3407872K), 0.0066640 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2012-12-07T18:55:26.822+0800: 36.394: [CMS-concurrent-sweep-start]
+2012-12-07T18:55:26.835+0800: 36.407: [CMS-concurrent-sweep: 0.013/0.013 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2012-12-07T18:55:26.835+0800: 36.407: [CMS-concurrent-reset-start]
+2012-12-07T18:55:26.842+0800: 36.414: [CMS-concurrent-reset: 0.007/0.007 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+Heap
+ par new generation   total 2359296K, used 81789K [0x0000002a99630000, 0x0000002b59630000, 0x0000002b59630000)
+  eden space 1572864K,   5% used [0x0000002a99630000, 0x0000002a9e60f438, 0x0000002af9630000)
+  from space 786432K,   0% used [0x0000002b29630000, 0x0000002b29630000, 0x0000002b59630000)
+  to   space 786432K,   0% used [0x0000002af9630000, 0x0000002af9630000, 0x0000002b29630000)
+ concurrent mark-sweep generation total 1048576K, used 26045K [0x0000002b59630000, 0x0000002b99630000, 0x0000002b99630000)
+ concurrent-mark-sweep perm gen total 43956K, used 26259K [0x0000002b99630000, 0x0000002b9c11d000, 0x0000002b9ea30000)
